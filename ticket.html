@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <title>Ticket</title>
+</head>
+<body>
+    <section class="w-[100%] h-[100%] flex">
+        <div class="left w-[255px] h-[100%] bg-[#363740] max-md:w-[80px] fixed top-[0] left-[0]">
+             
+            <div class="logo_part flex  items-center h-[56px] py-[45px] px-[32px] text-[#DDE2FF]">
+                <img src="./image/logo.svg" alt="logo" class="group">
+                <p class="ml-[12px] text-[#8a8a8a] text-[19px] max-md:hidden">Dashboard Kit</p>
+            </div>
+
+            <a href="./index.html">
+                <div class="section_part flex items-center h-[56px] py-[20px] px-[32px] text-[#DDE2FF] mt-[35px] hover:text-[#4b86b6] duration-[.3s] cursor-pointer">
+                    <i class='bx bxs-pie-chart-alt-2'></i>
+                    <p class="text-[16px] ml-[24px] max-md:hidden">Overview</p>
+                </div>
+            </a>
+            
+            <a href="./ticket.html">
+                <div class="section_part flex items-center bg-[#5e5e5e] h-[56px] py-[20px] px-[32px] text-[#8a8a8a] hover:text-[#4b86b6] border-l-[3px] duration-[.3s] cursor-pointer">
+                    <i class='bx bxs-credit-card-front'></i>
+                    <p class="text-[16px] ml-[24px] max-md:hidden">Tickets</p>
+                </div>
+            </a>
+            
+            <div class="section_part flex items-center h-[56px] py-[20px] px-[32px] text-[#8a8a8a] hover:text-[#4b86b6] duration-[.3s] cursor-pointer">
+                <i class='bx bxs-bulb'></i>
+                <p class="text-[16px] ml-[24px] max-md:hidden">Ideas</p>
+            </div>
+
+            <div class="section_part flex items-center h-[56px] py-[20px] px-[32px] text-[#8a8a8a] hover:text-[#4b86b6] duration-[.3s] cursor-pointer">
+                <i class='bx bxs-contact'></i>
+                <p class="text-[16px] ml-[24px] max-md:hidden">Contacts</p>
+            </div>
+
+            <div class="section_part flex items-center h-[56px] py-[20px] px-[32px] text-[#8a8a8a] hover:text-[#4b86b6] duration-[.3s] cursor-pointer">
+                <i class='bx bxs-user'></i>
+                <p class="text-[16px] ml-[24px] max-md:hidden">Agents</p>
+            </div>
+
+            <div class="section_part flex items-center h-[56px] py-[20px] px-[32px] text-[#8a8a8a] hover:text-[#4b86b6] duration-[.3s] cursor-pointer">
+                <i class='bx bxs-book'></i>
+                <p class="text-[16px] ml-[24px] max-md:hidden">Articles</p>
+            </div>
+
+            <hr class="my-[16px] border-[grey]">
+
+            <div class="section_part flex items-center h-[56px] py-[20px] px-[32px] text-[#8a8a8a] hover:text-[#4b86b6] duration-[.3s] cursor-pointer">
+                <i class='bx bx-cog' ></i>
+                <p class="text-[16px] ml-[24px] max-md:hidden">Settings</p>
+            </div>
+
+            <div class="section_part flex items-center h-[56px] py-[20px] px-[32px] text-[#8a8a8a] hover:text-[#4b86b6] duration-[.3s] cursor-pointer">
+                <i class='bx bxs-medal'></i>
+                <p class="text-[16px] ml-[24px] max-md:hidden">Subscription</p>
+            </div>
+
+        </div>
+
+        <div class="right ml-[255px] w-[1185px] p-[30px] bg-[#F7F8FC] max-md:ml-[80px] max-md:p-[10px]">
+            <div class="title flex items-center justify-between min-h-[44px] max-sm:flex-col gap-[10px] ">
+                <h2 class="text-[24px] font-bold text-[#252733]">Tickets</h2>
+                <div class="icons flex items-center justify-between min-h-[44px] gap-x-[25px] max-sm:flex-wrap max-sm:justify-center gap-[10px]">
+                    <i class='bx bx-search text-[#C5C7CD] hover:text-[#4b86b6] duration-[.3s] cursor-pointer'></i>
+                    <i class='bx bx-bell text-[#C5C7CD] hover:text-[#4b86b6] duration-[.3s] cursor-pointer'></i>
+                    <p class="h-[32px] border-[1px] border-1 max-sm:hidden"></p>
+                    <h3 class="text-[14px] text-[#252733]" >Jones Ferdinand</h3> 
+                    <img src="./image/_header.svg" alt="header">
+                </div>
+            </div>
+        
+            <div class="list max-w-[1122px] bg-[#FFFFFF] rounded-[8px] border-[1px]">
+                <div class="list_title flex justify-between p-[32px]">
+                    <h2 class="text-[19px] text-[#252733] font-bold">All tickets</h2>
+                    <div class="filter flex items-center">
+                        <img src="./image/sort.svg" alt="sort" class="h-[16px] w-[16px]">
+                        <p class="ml-[8px] text-[14px] text-[#4B506D] mr-[32px]">Sort</p>
+                        <img src="./image/filter.svg" alt="filter" class="h-[16px] w-[16px]">
+                        <p class="ml-[8px] text-[14px] text-[#4B506D]">Filter</p>
+                    </div>
+                </div>
+                <table class="w-full max-sm:flex max-sm:justify-center">
+                    <tr class="border-b-[1px] gap-x-[10px] my-[12px] max-sm:hidden">
+                        <td class="text-[#9FA2B4] text-[14px] font-bold py-[12px] ml-[10px] pl-[32px]">Ticket details</td>
+                        <td class="text-[#9FA2B4] text-[14px] font-bold py-[12px] ml-[10px]">Customer name</td>
+                        <td class="text-[#9FA2B4] text-[14px] font-bold py-[12px] ml-[10px]">Date</td>
+                        <td class="text-[#9FA2B4] text-[14px] font-bold py-[12px] ml-[10px]">Priority</td>
+                        <td></td>
+                    </tr>
+    
+                    <tr class="border-b-[1px] gap-x-[10px] max-sm:flex max-sm:flex-col max-sm:text-center">
+                        <td class="flex my-[24px] pl-[32px] max-sm:justify-center">
+                            <img src="./image/1.svg" alt="logo">
+                            <div class="name ml-[24px] max-sm:ml-[2px] max-sm:ml-[2px]">
+                                <h3 class="text-[14px] text-[#252733] font-bold" >Contact Email not Linked</h3>
+                                <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">Updated 1 day ago</p>
+                            </div>
+                        </td>
+                        <td>
+                            <h3 class="text-[14px] text-[#252733] font-bold">Tom Cruise</h3>
+                            <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">on 24.05.2019</p>
+                        </td>
+                        <td>
+                            <h3 class="text-[14px] text-[#252733] font-bold">May 26, 2019</h3>
+                            <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">6:30 PM</p>
+                        </td>
+                        <td>
+                            <button class="h-[24px] w-[54px] rounded-[100px] bg-[#F12B2C] text-[#FFFFFF]
+                            uppercase text-[11px] hover:bg-[red] duration-[.3s]">High</button>
+                        </td>
+                        <td><i class='bx bx-dots-vertical-rounded text-[#C5C7CD] text-[22px] hover:text-[#252733] cursor-pointer duration-[.3s]'></i></td>
+                    </tr>
+    
+                    <tr class="border-b-[1px] gap-x-[10px] max-sm:flex max-sm:flex-col max-sm:text-center">
+                        <td class="flex my-[24px] pl-[32px] max-sm:justify-center">
+                            <img src="./image/2.svg" alt="logo">
+                            <div class="name ml-[24px] max-sm:ml-[2px]">
+                                <h3 class="text-[14px] text-[#252733] font-bold" >Adding Images to Featured Posts</h3>
+                                <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">Updated 1 day ago</p>
+                            </div>
+                        </td>
+                        <td>
+                            <h3 class="text-[14px] text-[#252733] font-bold">Matt Damon</h3>
+                            <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">on 24.05.2019</p>
+                        </td>
+                        <td>
+                            <h3 class="text-[14px] text-[#252733] font-bold">May 26, 2019</h3>
+                            <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">8:00 AM</p>
+                        </td>
+                        <td>
+                            <button class="uppercase text-[11px] text-[#FFFFFF] bg-[#FEC400] rounded-[100px] h-[24px] w-[54px] hover:bg-[yellow] duration-[.3s]">low</button>
+                        </td>
+                        <td><i class='bx bx-dots-vertical-rounded text-[#C5C7CD] text-[22px] hover:text-[#252733] cursor-pointer duration-[.3s]'></i></td>
+                    </tr>
+    
+                    <tr class="border-b-[1px] gap-x-[10px] max-sm:flex max-sm:flex-col max-sm:text-center">
+                        <td class="flex my-[24px] pl-[32px] max-sm:justify-center">
+                            <img src="./image/3.svg" alt="logo">
+                            <div class="name ml-[24px] max-sm:ml-[2px]">
+                                <h3 class="text-[14px] text-[#252733] font-bold" >When will I be charged this month?</h3>
+                                <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">Updated 1 day ago</p>
+                            </div>
+                        </td>
+                        <td>
+                            <h3 class="text-[14px] text-[#252733] font-bold">Robert Downey</h3>
+                            <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">on 24.05.2019</p>
+                        </td>
+                        <td>
+                            <h3 class="text-[14px] text-[#252733] font-bold">May 26, 2019</h3>
+                            <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">7:30 PM</p>
+                        </td>
+                        <td>
+                            <button class="h-[24px] w-[54px] rounded-[100px] bg-[#F12B2C] text-[#FFFFFF]
+                            uppercase text-[11px] hover:bg-[red] duration-[.3s]">High</button>
+                        </td>
+                        <td><i class='bx bx-dots-vertical-rounded text-[#C5C7CD] text-[22px] hover:text-[#252733] cursor-pointer duration-[.3s]'></i></td>
+                    </tr>
+    
+                    <tr class="border-b-[1px] gap-x-[10px] max-sm:flex max-sm:flex-col max-sm:text-center">
+                        <td class="flex my-[24px] pl-[32px] max-sm:justify-center">
+                            <img src="./image/4.svg" alt="logo">
+                            <div class="name ml-[24px] max-sm:ml-[2px]">
+                                <h3 class="text-[14px] text-[#252733] font-bold" >Payment not going through</h3>
+                                <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">Updated 2 days ago</p>
+                            </div>
+                        </td>
+                        <td>
+                            <h3 class="text-[14px] text-[#252733] font-bold">Christian Bale</h3>
+                            <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">on 24.05.2019</p>
+                        </td>
+                        <td>
+                            <h3 class="text-[14px] text-[#252733] font-bold">May 25, 2019</h3>
+                            <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">5:00 PM</p>
+                        </td>
+                        <td>
+                            <button class="text-[#FFFFFF] text-[11px] h-[24px] w-[76px] rounded-[100px] uppercase bg-[#29CC97] hover:bg-[green] duration-[.3s]">Normal</button>
+                        </td>
+                        <td><i class='bx bx-dots-vertical-rounded text-[#C5C7CD] text-[22px] hover:text-[#252733] cursor-pointer duration-[.3s]'></i></td>
+                    </tr>
+    
+                    <tr class="border-b-[1px] gap-x-[10px] max-sm:flex max-sm:flex-col max-sm:text-center">
+                        <td class="flex my-[24px] pl-[32px] max-sm:justify-center">
+                            <img src="./image/5.svg" alt="logo">
+                            <div class="name ml-[24px] max-sm:ml-[2px]">
+                                <h3 class="text-[14px] text-[#252733] font-bold" >Unable to add replies</h3>
+                                <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">Updated 2 days ago</p>
+                            </div>
+                        </td>
+                        <td>
+                            <h3 class="text-[14px] text-[#252733] font-bold">Henry Cavil</h3>
+                            <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">on 24.05.2019</p>
+                        </td>
+                        <td>
+                            <h3 class="text-[14px] text-[#252733] font-bold">May 25, 2019</h3>
+                            <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">4:00 PM</p>
+                        </td>
+                        <td>
+                            <button class="h-[24px] w-[54px] rounded-[100px] bg-[#F12B2C] text-[#FFFFFF]
+                            uppercase text-[11px] hover:bg-[red] duration-[.3s]">High</button>
+                        </td>
+                        <td><i class='bx bx-dots-vertical-rounded text-[#C5C7CD] text-[22px] hover:text-[#252733] cursor-pointer duration-[.3s]'></i></td>
+                    </tr>
+    
+                    <tr class="border-b-[1px] gap-x-[10px] max-sm:flex max-sm:flex-col max-sm:text-center">
+                        <td class="flex my-[24px] pl-[32px] max-sm:justify-center">
+                            <img src="./image/6.svg" alt="logo">
+                            <div class="name ml-[24px] max-sm:ml-[2px]">
+                                <h3 class="text-[14px] text-[#252733] font-bold" >Downtime since last week</h3>
+                                <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">Updated 3 days ago</p>
+                            </div>
+                        </td>
+                        <td>
+                            <h3 class="text-[14px] text-[#252733] font-bold">Chris Evans</h3>
+                            <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">on 23.05.2019</p>
+                        </td>
+                        <td>
+                            <h3 class="text-[14px] text-[#252733] font-bold">May 25, 2019</h3>
+                            <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">2:00 PM</p>
+                        </td>
+                        <td>
+                            <button class="text-[#FFFFFF] text-[11px] h-[24px] w-[76px] rounded-[100px] uppercase bg-[#29CC97] hover:bg-[green] duration-[.3s]">Normal</button>
+                        </td>
+                        <td><i class='bx bx-dots-vertical-rounded text-[#C5C7CD] text-[22px] hover:text-[#252733] cursor-pointer duration-[.3s]'></i></td>
+                    </tr>
+    
+                    <tr class="border-b-[1px] gap-x-[10px] max-sm:flex max-sm:flex-col max-sm:text-center">
+                        <td class="flex my-[24px] pl-[32px] max-sm:justify-center">
+                            <img src="./image/7.svg" alt="logo">
+                            <div class="name ml-[24px] max-sm:ml-[2px]">
+                                <h3 class="text-[14px] text-[#252733] font-bold" >Referral Bonus</h3>
+                                <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">Updated 4 day ago</p>
+                            </div>
+                        </td>
+                        <td>
+                            <h3 class="text-[14px] text-[#252733] font-bold">Sam Smith</h3>
+                            <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">on 22.05.2019</p>
+                        </td>
+                        <td>
+                            <h3 class="text-[14px] text-[#252733] font-bold">May 25, 2019</h3>
+                            <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">11:30 AM</p>
+                        </td>
+                        <td>
+                            <button class="uppercase text-[11px] text-[#FFFFFF] bg-[#FEC400] rounded-[100px] h-[24px] w-[54px] hover:bg-[yellow] duration-[.3s]">low</button>
+                        </td>
+                        <td><i class='bx bx-dots-vertical-rounded text-[#C5C7CD] text-[22px] hover:text-[#252733] cursor-pointer duration-[.3s]'></i></td>
+                    </tr>
+    
+                    <tr class="border-b-[1px] gap-x-[10px] max-sm:flex max-sm:flex-col max-sm:text-center">
+                        <td class="flex my-[24px] pl-[32px] max-sm:justify-center">
+                            <img src="./image/8.svg" alt="logo">
+                            <div class="name ml-[24px] max-sm:ml-[2px]">
+                                <h3 class="text-[14px] text-[#252733] font-bold" >How do I change my password?</h3>
+                                <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">Updated 6 days ago</p>
+                            </div>
+                        </td>
+                        <td>
+                            <h3 class="text-[14px] text-[#252733] font-bold">Steve Rogers</h3>
+                            <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">on 21.05.2019</p>
+                        </td>
+                        <td>
+                            <h3 class="text-[14px] text-[#252733] font-bold">May 24, 2019</h3>
+                            <p class="text-[#C5C7CD] text-[12px] heading-[16px] mt-[4px]">1:00 PM</p>
+                        </td>
+                        <td>
+                            <button class="text-[#FFFFFF] text-[11px] h-[24px] w-[76px] rounded-[100px] uppercase bg-[#29CC97] hover:bg-[green] duration-[.3s]">Normal</button>
+                        </td>
+                        <td><i class='bx bx-dots-vertical-rounded text-[#C5C7CD] text-[22px] hover:text-[#252733] cursor-pointer duration-[.3s]'></i></td>
+                    </tr>
+    
+                </table>
+                <div class="page flex items-center my-[24px] px-[32px] justify-end max-sm:flex-col">
+                    <div class="part flex items-center justify-center">
+                        <p class="text-[14px] text-[#9FA2B4]">Rows per page: 8</p>
+                        <i class='bx bxs-down-arrow text-[#9FA2B4] text-[10px] ml-[3px]'></i>
+                    </div>
+                    <div class="part flex max-sm:mt-[10px]">
+                        <p class="text-[14px] text-[#9FA2B4] ml-[48px] max-sm:ml-[0px]">1-8 of 1240</p>
+                        <i class='bx bxs-chevron-left text-[#9FA2B4] text-[20px] ml-[24px] hover:text-[#252733] duration-[.3s] cursor-pointer'></i>
+                        <i class='bx bxs-chevron-right text-[#9FA2B4] text-[20px] ml-[12px] hover:text-[#252733] duration-[.3s] cursor-pointer'></i>
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</body>
+</html>

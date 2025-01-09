@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <title>Overview</title>
+</head>
+<body>
+    <section class="w-[100%] h-[100%] flex">
+        <div class="left w-[255px] h-[100%] bg-[#363740] max-md:w-[80px] fixed top-[0] left-[0]">
+             
+            <div class="logo_part flex  items-center h-[56px] py-[45px] px-[32px] text-[#DDE2FF]">
+                <img src="./image/logo.svg" alt="logo" class="group">
+                <p class="ml-[12px] text-[#8a8a8a] text-[19px] max-md:hidden">Dashboard Kit</p>
+            </div>
+
+            <a href="./index.html">
+                <div class="section_part flex items-center h-[56px] py-[20px] px-[32px] text-[#DDE2FF] 
+                border-l-[3px] mt-[35px] hover:text-[#4b86b6] duration-[.3s] cursor-pointer bg-[#5e5e5e]">
+                    <i class='bx bxs-pie-chart-alt-2'></i>
+                    <p class="text-[16px] ml-[24px] max-md:hidden">Overview</p>
+                </div>
+            </a>
+            
+            <a href="./ticket.html">
+                <div class="section_part flex items-center h-[56px] py-[20px] px-[32px] text-[#8a8a8a] hover:text-[#4b86b6] duration-[.3s] cursor-pointer">
+                    <i class='bx bxs-credit-card-front'></i>
+                    <p class="text-[16px] ml-[24px] max-md:hidden">Tickets</p>
+                </div>
+            </a>
+            
+            <div class="section_part flex items-center h-[56px] py-[20px] px-[32px] text-[#8a8a8a] hover:text-[#4b86b6] duration-[.3s] cursor-pointer">
+                <i class='bx bxs-bulb'></i>
+                <p class="text-[16px] ml-[24px] max-md:hidden">Ideas</p>
+            </div>
+
+            <div class="section_part flex items-center h-[56px] py-[20px] px-[32px] text-[#8a8a8a] hover:text-[#4b86b6] duration-[.3s] cursor-pointer">
+                <i class='bx bxs-contact'></i>
+                <p class="text-[16px] ml-[24px] max-md:hidden">Contacts</p>
+            </div>
+
+            <div class="section_part flex items-center h-[56px] py-[20px] px-[32px] text-[#8a8a8a] hover:text-[#4b86b6] duration-[.3s] cursor-pointer">
+                <i class='bx bxs-user'></i>
+                <p class="text-[16px] ml-[24px] max-md:hidden">Agents</p>
+            </div>
+
+            <div class="section_part flex items-center h-[56px] py-[20px] px-[32px] text-[#8a8a8a] hover:text-[#4b86b6] duration-[.3s] cursor-pointer">
+                <i class='bx bxs-book'></i>
+                <p class="text-[16px] ml-[24px] max-md:hidden">Articles</p>
+            </div>
+
+            <hr class="my-[16px] border-[grey]">
+
+            <div class="section_part flex items-center h-[56px] py-[20px] px-[32px] text-[#8a8a8a] hover:text-[#4b86b6] duration-[.3s] cursor-pointer">
+                <i class='bx bx-cog' ></i>
+                <p class="text-[16px] ml-[24px] max-md:hidden">Settings</p>
+            </div>
+
+            <div class="section_part flex items-center h-[56px] py-[20px] px-[32px] text-[#8a8a8a] hover:text-[#4b86b6] duration-[.3s] cursor-pointer">
+                <i class='bx bxs-medal'></i>
+                <p class="text-[16px] ml-[24px] max-md:hidden">Subscription</p>
+            </div>
+
+        </div>
+
+        <div class="right ml-[255px] w-[1185px] p-[30px] bg-[#F7F8FC] max-md:ml-[80px] max-md:p-[10px]">
+
+            <div class="title flex items-center justify-between min-h-[44px] max-sm:flex-col gap-[10px] ">
+                <h2 class="text-[24px] font-bold text-[#252733]">Overview</h2>
+                <div class="icons flex items-center justify-between h-[44px] gap-x-[25px] max-sm:flex-wrap max-sm:justify-center gap-[10px]">
+                    <i class='bx bx-search text-[#C5C7CD] hover:text-[#4b86b6] duration-[.3s] cursor-pointer'></i>
+                    <i class='bx bx-bell text-[#C5C7CD] hover:text-[#4b86b6] duration-[.3s] cursor-pointer'></i>
+                    <p class="h-[32px] border-[1px] border-1 max-sm:hidden"></p>
+                    <h3 class="text-[14px] text-[#252733]">Jones Ferdinand</h3> 
+                    <img src="./image/_header.svg" alt="header">
+                </div>
+            </div>
+
+            <div class="box flex justify-between flex-wrap gap-[10px] max-lg:justify-center mt-[54px] ">
+                <div class="boxes group bg-[#FFFFFF] cursor-pointer grid gap-y-[12px] w-[250px] h-[134px] border-[1px] rounded-[8px] border-[#DFE0EB] text-center content-center hover:text-[#3751FF] hover:border-[#3751FF] max-sm:w-[200px] max-sm:w-[150px]">
+                    <p class="text-[16px] text-[#9FA2B4] group-hover:text-[#3751FF]">Unresolved</p>
+                    <h4 class="text-[40px] text-[#252733] group-hover:text-[#3751FF]">60</h4>
+                </div>
+
+                <div class="boxes group bg-[#FFFFFF] cursor-pointer grid gap-y-[12px] w-[250px] h-[134px] border-[1px] rounded-[8px] border-[#DFE0EB] text-center content-center hover:text-[#3751FF] hover:border-[#3751FF] max-sm:w-[200px] max-sm:w-[150px]">
+                    <p class="text-[16px] text-[#9FA2B4] group-hover:text-[#3751FF]">Overdue</p>
+                    <h4 class="text-[40px] text-[#252733] group-hover:text-[#3751FF]">16</h4>
+                </div>
+
+                <div class="boxes group bg-[#FFFFFF] cursor-pointer grid gap-y-[12px] w-[250px] h-[134px] border-[1px] rounded-[8px] border-[#DFE0EB] text-center content-center hover:text-[#3751FF] hover:border-[#3751FF] max-sm:w-[200px] max-sm:w-[150px]">
+                    <p class="text-[16px] text-[#9FA2B4] group-hover:text-[#3751FF]">Open</p>
+                    <h4 class="text-[40px] text-[#252733] group-hover:text-[#3751FF]">43</h4>
+                </div>
+
+                <div class="boxes group bg-[#FFFFFF] cursor-pointer grid gap-y-[12px] w-[250px] h-[134px] border-[1px] rounded-[8px] border-[#DFE0EB] text-center content-center group-hover:text-[#3751FF]  hover:border-[#3751FF] max-sm:w-[200px] max-sm:w-[150px]">
+                    <p class="text-[16px] text-[#9FA2B4] group-hover:text-[#3751FF]">On hold</p>
+                    <h4 class="text-[40px] group-hover:text-[#3751FF] text-[#252733]">60</h4>
+                </div>
+            </div>
+
+            <menu class="flex flex-wrap justify-between mt-[30px] bg-[#FFFFFF] max-lg:text-center max-lg:flex-col">
+                <div class="menu_left p-[32px]">
+                    <h2 class="text-[19px] font-bold text-[#252733]">Today's trends</h2>
+                    <p class="text-[12px] text-[#9FA2B4] mt-[8px]">as of 25 May 2019, 09:41 PM</p>
+                </div>
+
+                <div class="right flex flex-wrap gap-y-[20px] max-lg:flex-col max-lg:text-center">
+                    <div class="menu_mid flex pt-[60px] max-lg:justify-center">
+                        <div class="part flex items-center h-[35px] mr-[32px]">
+                            <p class="w-[16px] h-[2px] bg-[#3751FF] mr-[8px]"></p>
+                            <p class="text-[12px] text-[#9FA2B4]">Today</p>
+                        </div>
+                        <div class="part flex items-center h-[35px] mr-[32px]">
+                            <p class="w-[16px] h-[2px] bg-[#DFE0EB] mr-[8px]"></p>
+                            <p class="text-[12px] text-[#9FA2B4]">Yesterday</p>
+                        </div>
+                    </div>
+    
+                    <div class="menu_right flex flex-col items-center">
+                        <div class="boxes h-[114px] w-[340px] border-[1px] text-center content-center max-md:max-w-[300px] max-sm:max-w-[200px]">
+                            <p class="text-[16px] text-[#9FA2B4]">Resolved</p>
+                            <h4 class="text-[#252733] text-[24px] font-bold mt-[6px]">449</h4>
+                        </div>
+    
+                        <div class="boxes h-[106px] w-[340px] border-[1px] text-center content-center max-md:max-w-[300px] max-sm:w-[200px]">
+                            <p class="text-[16px] text-[#9FA2B4]">Received</p>
+                            <h4 class="text-[#252733] text-[24px] font-bold mt-[6px]">426</h4>
+                        </div>
+    
+                        <div class="boxes h-[106px] w-[340px] border-[1px] text-center content-center max-md:max-w-[300px] max-sm:w-[200px]">
+                            <p class="text-[16px] text-[#9FA2B4]">Average first response time</p>
+                            <h4 class="text-[#252733] text-[24px] font-bold mt-[6px]">33m</h4>
+                        </div>
+    
+                        <div class="boxes h-[106px] w-[340px] border-[1px] text-center content-center max-md:max-w-[300px] max-sm:w-[200px]">
+                            <p class="text-[16px] text-[#9FA2B4]">Average response time</p>
+                            <h4 class="text-[#252733] text-[24px] font-bold mt-[6px]">3h 8m</h4>
+                        </div>
+    
+                        <div class="boxes h-[114px] w-[340px] border-[1px] text-center content-center max-md:max-w-[300px] max-sm:w-[200px]">
+                            <p class="text-[16px] text-[#9FA2B4]">Resolution within SLA</p>
+                            <h4 class="text-[#252733] text-[24px] font-bold mt-[6px]">94%</h4>
+                        </div>
+                    </div>
+                </div>
+            </menu>
+
+            <div class="cart mt-[30px] flex justify-between flex-wrap gap-[10px] max-lg:justify-center max-sm:flex-col max-sm:items-center">
+                <div class="carts w-[510px] bg-[#FFFFFF] max-lg:w-[400px] max-sm:w-[220px]">
+                    <div class="carts_top flex justify-between max-sm:flex-col">
+                        <div class="top_l p-[32px] max-sm:pl-[15px]">
+                            <h2 class="text-[19px] text-[#252733] font-bold">Unresolved tickets</h2>
+                            <p class="mt-[8px] text-[12px] text-[#9FA2B4]">Group: <span class="font-bold text-[#252733]">Support</span></p>
+                        </div>
+                        <a href="" class="text-[#3751FF] text-[14px] mt-[37px] pr-[32px] max-sm:pl-[15px] max-sm:mt-[0px] max-sm:mb-[10px]">View details</a>
+                    </div>
+                    <div class="carts_bottom">
+                        <div class="box flex justify-between h-[58px] border-b-[1px] items-center px-[32px] max-sm:flex-col max-sm:items-start max-sm:px-[15px]">
+                            <h3 class="text-[14px] text-[#252733] font-bold max-sm:text-[12px]">Waiting on Feature Request</h3>
+                            <p class="text-[#9FA2B4] text-[14px] ">4238</p>
+                        </div>
+                        <div class="box flex justify-between h-[58px] border-b-[1px] items-center px-[32px] max-sm:flex-col max-sm:items-start max-sm:px-[15px]">
+                            <h3 class="text-[14px] text-[#252733] font-bold max-sm:text-[12px]">Awaiting Customer Response</h3>
+                            <p class="text-[#9FA2B4] text-[14px] ">1005</p>
+                        </div>
+                        <div class="box flex justify-between h-[58px] border-b-[1px] items-center px-[32px] max-sm:flex-col max-sm:items-start max-sm:px-[15px]">
+                            <h3 class="text-[14px] text-[#252733] font-bold max-sm:text-[12px]">Awaiting Developer Fix</h3>
+                            <p class="text-[#9FA2B4] text-[14px] ">914</p>
+                        </div>
+                        <div class="box flex justify-between h-[58px] border-b-[1px] items-center px-[32px] max-sm:flex-col max-sm:items-start max-sm:px-[15px]">
+                            <h3 class="text-[14px] text-[#252733] font-bold max-sm:text-[12px]">Pending</h3>
+                            <p class="text-[#9FA2B4] text-[14px] ">281</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carts w-[510px] bg-[#FFFFFF] max-lg:w-[400px] max-sm:w-[220px]">
+                    <div class="carts_top flex justify-between">
+                        <div class="top_l p-[32px] max-md:px-[15px]">
+                            <h2 class="text-[19px] text-[#252733] font-bold">Tasks</h2>
+                            <p class="mt-[8px] text-[12px] text-[#9FA2B4]">Today</p>
+                        </div>
+                        <a href="" class="text-[#3751FF] text-[14px] mt-[37px] pr-[32px]">View all</a>
+                    </div>
+                    <div class="carts_bottom">
+                        <div class="box flex justify-between items-center h-[58px] border-b-[1px] px-[32px] max-sm:flex-col max-sm:items-start max-md:px-[15px]">
+                            <p class="text-[14px]">Create new task</p>
+                            <button class="h-[24px] w-[24px] rounded-[8px] bg-[#F0F1F7] text-[#9FA2B4]">+</button>
+                        </div>
+                        <div class="box flex justify-between items-center h-[58px] border-b-[1px] px-[32px] max-sm:flex-col max-sm:items-start max-md:px-[15px]">
+                            <div class="inp text-[14px]"><input type="radio" name="radio" id="" class="mr-[15px] max-sm:mr-[6px]"> Finish ticket update </div> 
+                            <button class="h-[24px] w-[74px] rounded-[8px] bg-[#FEC400] text-[#FFFFFF]">Urgent</button>
+                        </div>
+                        <div class="box flex justify-between items-center h-[58px] border-b-[1px] px-[32px] max-sm:flex-col max-sm:items-start max-md:px-[15px]">
+                            <div class="inp text-[14px] max-sm:text-[12px]"><input type="radio" name="radio" id="" class="mr-[15px] max-sm:mr-[6px]"> Create new ticket example</div>
+                            <button class="h-[24px] w-[54px] rounded-[8px] bg-[#29CC97] text-[#FFFFFF]">New</button>
+                        </div>
+                        <div class="box flex justify-between items-center h-[58px] border-b-[1px] px-[32px] max-sm:flex-col max-sm:items-start max-md:px-[15px]">
+                            <div class="inp text-[14px]"><input type="radio" name="radio" id="" class="mr-[15px] max-sm:mr-[6px]">  Update ticket report</div>
+                            <button class="h-[24px] w-[76px] rounded-[8px] bg-[#F0F1F7] text-[#9FA2B4]">Default</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</body>
+</html>
